@@ -1,6 +1,8 @@
 # Titanic-Survival-Prediction
-EN: Machine Learning project to predict the survivors of the Titanic disaster. Uses the Titanic dataset. A SVM classifier was employed, obtaining 77% of accuracy on test set.has 
+EN: Machine Learning project to predict the survivors of the Titanic disaster. Uses the Titanic dataset. A SVM classifier was employed, obtaining 77% of accuracy on test set from Kaggle. 
+
 The main file has functions and pipelines for 
+
 1. Data preparation
 2. Model selection
 3. Hiperparameter adjustment
@@ -17,13 +19,14 @@ no conjunto de teste do Kaggle.
 
 O arquivo main contém funções e pipelines para:
 
-Preparação de dados
-Seleção de modelo
-Ajuste de hiperparâmetros
-Salvamento de modelo
-Validação cruzada
-Análise de erros
-Previsão de dados de teste
+1.Preparação de dados
+2.Seleção de modelo
+3.Ajuste de hiperparâmetros
+4.Salvamento de modelo
+5.Validação cruzada
+6.Análise de erros
+7.Previsão de dados de teste
+
 O arquivo error_analysis_ contém funções que automatizam a análise de erros e a avaliação do modelo de classificação binária, como a plotagem da matriz de confusão, a curva ROC, 
 as curvas Precisão x Sensibilidade e o ajuste do limiar de decisão para atender aos requisitos de Precisão ou Sensibilidade.
 
